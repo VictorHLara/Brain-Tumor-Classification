@@ -3,6 +3,10 @@
 Este projeto implementa um pipeline completo de classificação de tumores cerebrais utilizando Redes Neurais Convolucionais e modelos pré-treinados (ResNet-18, AlexNet, ViT-B/16), avaliando cenários com e sem Data Augmentation.
 O código realiza treinamento, validação, teste, exportação de métricas, confusion matrix, e salvamento do modelo, seguindo práticas de reprodutibilidade.
 
+## Importante ⚠️
+
+Já que resolvi trabalhar com o VIT-B/16, foi necessário rodar 4 notebooks diferentes, pois como o VIT é mais pesado, o Colab no plano gratuito não permite rodar mais que uma vez por sessão, por isso as execuções estão em notebooks diferentes, uma para cada teste.
+
 ## 📌 Descrição Detalhada do Projeto:
 
 O objetivo é classificar imagens do dataset Brain Tumor MRI em diferentes categorias de tumores. O mesmo está disponível em https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset.
