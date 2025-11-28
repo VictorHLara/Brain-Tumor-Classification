@@ -3,6 +3,8 @@
 Este projeto implementa um pipeline completo de classificação de tumores cerebrais utilizando Redes Neurais Convolucionais e modelos pré-treinados (ResNet-18, AlexNet, ViT-B/16), avaliando cenários com e sem Data Augmentation.
 O código realiza treinamento, validação, teste, exportação de métricas, confusion matrix, e salvamento do modelo, seguindo práticas de reprodutibilidade.
 
+Link para o vídeo de apresentação: https://youtu.be/Xea-Hd4t5Og
+
 ## Importante ⚠️
 
 Já que resolvi trabalhar com o VIT-B/16, foi necessário rodar 4 notebooks diferentes, pois como o VIT é mais pesado, o Colab no plano gratuito não permite rodar mais que uma vez por sessão, por isso as execuções estão em notebooks diferentes, uma para cada teste.
@@ -76,7 +78,7 @@ Python 3.8+
 
  Dependências:
 ```bash
-pip install torch torchvision scikit-learn numpy matplotlib seaborn pillow
+pip install torch torchvision scikit-learn numpy matplotlib seaborn pillow pandas
 ```
 
 ## 📦 2. Configuração do Caminho do Dataset
